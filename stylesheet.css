@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(248, 246, 246);
+}
+.containerMain{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.containerFlexPhone img{
+    width: 468px;
+    height: 634px;
+}
+.group .loginWithFacebook{
+    padding-bottom: 20px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid gray;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 30px 20px 30px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.group .lines{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.group .lines #line{
+    width: 90px;
+    height: 1px;
+    background: rgb(153, 153, 153);
+}
+.group .lines p{
+    color: #8e8e8e;
+    padding: 0px 15px;
+}
+.group input{
+    padding-left: 10px;
+    font-size: 11px;
+    margin: 2px;
+    height: 30px;
+    width: 100%;
+}
+
+.group .sign{
+    padding: 8px;
+    margin-top: 10px;
+    background-color: rgb(0, 149, 246);
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    border-style: none;
+}
+.group .instagramLogo{
+    width: 160px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.containerMain .download img{
+    width: 150px;
+}
+
+.containerLogin .download p{
+    padding: 20px 20px;
+    text-align: center;
+}
