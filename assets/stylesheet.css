@@ -12,10 +12,20 @@ body{
     display: flex;
     justify-content: center;
 }
-.containerFlexPhone img{
+.containerFlexPhone{
+    position: relative;
+    background-image: url(img/background-phone.png);
+    background-size: cover;
     width: 468px;
     height: 634px;
 }
+.containerFlexPhone #slider{
+    position: absolute;
+    width: 250px;
+    top: 25px;
+    left: 160px;
+}
+
 .group .loginWithFacebook{
     color: #385185;
     font-size: 13px;
