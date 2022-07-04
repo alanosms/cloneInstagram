@@ -8,7 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .containerMain{
-    padding-top: 120px;
+    padding-top: 45px;
     display: flex;
     justify-content: center;
 }
@@ -44,7 +44,7 @@ body{
     border: 1px solid #dbdbdb;
     align-items: center;
     margin: 0 auto;
-    padding: 20px 30px 20px 30px;
+    padding: 20px;
     background-color: #ffffff;
     margin-bottom: 15px;
 }
