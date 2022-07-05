@@ -14,7 +14,7 @@ body{
 }
 .containerFlexPhone{
     position: relative;
-    background-image: url(./img/background-phone.png);
+    background-image: url(../img/background-phone.png);
     background-size: cover;
     width: 468px;
     height: 634px;
